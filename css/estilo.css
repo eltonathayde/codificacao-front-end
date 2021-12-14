@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://blogdodurango.com.br/wp-content/uploads/2021/03/eleicoes-2022-pesquisa-perspectiva.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 10px 30px;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.texto-esquerda{
+    position: absolute;
+    bottom:-125px;
+    margin: 5px;
+}
+
+.cabecalho{
+    font-size: 1.8rem;
+}
+
+.cabecalho ul{
+    height: 50px;
+    background-color: rgba(206, 141, 21, 0.808);
+    opacity: 0.6;
+    padding: 15px;
+    border-radius: 20px;
+
+}
+
+.cabecalho a{
+    display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
+ 
+.menu{
+    float: right;
+    width: auto;
+
+}
+
+.menu li{
+    list-style: none;
+    list-style-type:none;
+    display: inline-block;
+    padding: 13px;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: -7px;
+    border-radius: 25px;
+    transition: 0.7s all;
+
+}
+
+.menu li:hover{
+    transition: 0.7s all;
+    background-color: white;
+    color: black;
+    
+}
+.contato{
+    padding: 20px;
+    border:2px solid black; 
+    margin: 20px;
+    
+    width: 350px;
+    top: 155px;
+    right: 100px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+
+}
+.contato label, .contato textarea{
+    display: block;
+    width: 100%;
+}
+
+
+.contato input,.contato textarea{
+     border-radius: 25px;
+     border: none;
+     padding: 5px;
+     outline: none;
+}
+.contato textarea{
+    width: 60%;
+    margin: 0 auto;
+
+}
+.contato input[type=submit]{
+    width: 40%;
+    margin-top: 10px;
+
+
+}
+.main{
+    font-size: 3rem;
+    color: black;
+    width: 70%;
+    display: inline-block;
+    margin-top: 1.5rem;
+    opacity: 0.7;
+}
