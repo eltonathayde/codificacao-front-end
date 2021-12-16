@@ -11,15 +11,9 @@ body{
     background-size: cover;
     color: white;
     padding: 10px 30px;
-    height: 100vh;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
-}
-
-.texto-esquerda{
-    position: absolute;
-    bottom:-125px;
-    margin: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-position: center;   
 }
 
 .cabecalho{
@@ -61,10 +55,13 @@ body{
     transition: 0.7s all;
 
 }
+.container{
+    height: 100vh;
+}
 
 .menu li:hover{
     transition: 0.7s all;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: black;
     
 }
@@ -72,13 +69,13 @@ body{
     padding: 20px;
     border:2px solid black; 
     margin: 20px;
-    
     width: 350px;
     top: 155px;
     right: 100px;
     border-radius: 20px;
     text-align: center;
     font-size: 1.2rem;
+    position: absolute;
 
 }
 .contato label, .contato textarea{
@@ -150,5 +147,30 @@ body{
         width: 100%;
         padding: 0;
         margin: 0;
+        
     }
+}
+
+@media (max-width: 320px){
+     .cabecalho  ul{
+         height: auto;
+
+ }
+ body{
+             background-color: coral;
+         }
+}
+
+@media (max-width:1280px){
+    .cabecalho ul{
+        font-size: 1.1rem;
+        height: auto;
+    }
+}
+.rodape{
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(255, 186, 59, 0.719);
+    width: 100vw;
+    margin-left: -56px;
 }
