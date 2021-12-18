@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+body{
+    background: url("https://pubimg.band.uol.com.br/files/4f1e22bed04fb0f78260.png") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.sobre{
+  color:white;
+  max-width:980px;
+  text-align:center;
+  margin: 5rem auto;
+  
+}
+.main{
+    width:100%;
+}
+
+.sobre h3{
+    font-size:4rem;
+}
+.sobre P{
+font-size:2rem
+}

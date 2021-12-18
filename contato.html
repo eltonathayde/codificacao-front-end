@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contato</title>
+</head>
+<body>
+    <Header class="cabecalho">
+        <nav>
+            <ul>
+                <a href="#" class="logo">PESQUISA ELEITORAL</a>
+                <div class="menu">
+                    <a href="index"><li>Home</Li></a>
+                    <a href="sobre"><li>Sobre</li></a>
+                    <a href="contato"><Li class="ativo">Contato</li></a>
+                    <a href="politica-privacidade"><li>Politica de privacidade</li></a>
+                </div>
+            </ul>
+        </nav>
+    </Header>
+    <div class="container">
+        <div class="main">
+         </div>
+         <div class="satisfação">
+            <H3 class="titulo-contato">pesquisa de satisfação:</H3> 
+        </div>
+
+        <form id="contato" class="contato">
+            <H4>Formulario de contato</H4>
+            <p>digite seus dados:</p>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" requiredplaceholder="" placeholder="Nome">
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="Sobrenome" name="sobrenome" required placeholder="sobrenome">
+            <label for= "cidade">Cidade</label>
+            <input type="text" id="email" name="Email" required placeholder="Email">
+            <label for="telefone">Telefone</label>
+            <input type="text" id="Telefone" name="telefone" required placeholder="Telefone">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="Mensagem" required placeholder="Digite sua mensagem ..."></textarea>
+            <input type="submit" name="enviar" class="enviar" value="enviar">
+        </form>
+</body>
+</html>

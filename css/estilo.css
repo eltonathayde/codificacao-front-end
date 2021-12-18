@@ -20,6 +20,11 @@ body{
     font-size: 1.8rem;
 }
 
+.ativo{
+background-color:white;
+color:black;
+}
+
 .cabecalho ul{
     height: 50px;
     background-color: rgba(206, 141, 21, 0.808);

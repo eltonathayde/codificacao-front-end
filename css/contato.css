@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body{
+    background: url("https://www.tse.jus.br/imagens/imagens/tse-e-titulo-capa/@@images/18e3d136-a7a2-4231-8881-32257c64f44a.jpeg")no-repeat;
+    background-size:cover;
+    background-position:center
+}
+.contato{
+    margin-right:310px;
+    margin-top:150px;
+    border:0 0 2px white;
+    opacity:0.7;
+    padding:70px;
+    color:black;
+}
+
+.titulo-contato{
+     margin-left:327px;
+    font-size:4rem;
+    margin-top:6rem;
+    color:black
+}
