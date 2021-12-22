@@ -5,18 +5,27 @@ body{
     background-size:cover;
     background-position:center
 }
-.contato{
-    margin-right:310px;
-    margin-top:150px;
-    border:0 0 2px white;
-    opacity:0.7;
-    padding:70px;
-    color:black;
-}
+.cabecalho ul{
+    background-color: rgba(128, 255, 0, 0.589);
+    
 
+}
+.contato{
+    position: initial;
+    margin: 0 auto;
+    border:5px solid white;
+}
+.main{
+    width: 100%;
+}
+    
 .titulo-contato{
-     margin-left:327px;
+    text-align: center;
     font-size:4rem;
-    margin-top:6rem;
-    color:black
+    margin-top:5.5rem;
+    color:black;
+    width:auto;
+}
+.rodape{
+    background-color: rgba(128, 255, 0, 0.589);
 }

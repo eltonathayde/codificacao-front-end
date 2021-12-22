@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body{
+    background: url("https://imagens.ebc.com.br/dTW5SR131CFjDLKSx_DwkTGGjyI=/1600x800/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/50429036346_a9271a4327_o.jpg?itok=hsrzqANV") no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.politica-privacidade{
+    color:black;
+    max-width:980px;
+    text-align:center;
+    margin: 5rem auto;
+}
+.main{
+    width:100%;
+}
+
+.politica-privacidade h3{
+    font-size:4rem;
+}
+.politica-privacidade P{
+font-size:2rem
+}
+.cabecalho ul{
+    background-color:gray;
+    
+}
+.rodape{
+    background-color:gray;
+}
